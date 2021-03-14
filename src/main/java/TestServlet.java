@@ -24,7 +24,6 @@ public class TestServlet extends HttpServlet {
     @Resource(name="jdbc/web_student_tracker")
     private DataSource dataSource;
 
-
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
