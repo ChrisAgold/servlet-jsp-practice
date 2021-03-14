@@ -8,7 +8,7 @@ public class JDBCDemo {
         String url = "jdbc:mysql://127.0.0.1:3306/employees_database";
         try {
             // Establish Connection Object
-
+            Connection conn = DriverManager.getConnection(url, "root", "password123");
             // create a statement object to send to the database
             Statement statement = conn.createStatement();
 
