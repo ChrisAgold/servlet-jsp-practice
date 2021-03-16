@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -16,6 +15,7 @@ import javax.sql.DataSource;
 /**
  * Servlet implementation class TestServlet
  */
+
 @WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -27,6 +27,7 @@ public class TestServlet extends HttpServlet {
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
      */
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // Step 1:  Set up the printwriter
@@ -58,5 +59,4 @@ public class TestServlet extends HttpServlet {
             exc.printStackTrace();
         }
     }
-
 }

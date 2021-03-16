@@ -1,5 +1,4 @@
 create database employees_database;
-
 use employees_database;
 
 show databases;
@@ -35,8 +34,3 @@ SELECT * FROM employees_tbl;
 
 select name,dept from employees_tbl
 where salary = 5000;
-
-
-
-
-
